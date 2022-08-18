@@ -7,6 +7,9 @@
 
     <title>Música para todos - Spotify</title>
 
+    <!--Ícone-->
+    <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
+
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -20,6 +23,7 @@
   </head>
   <body>
 
+      <!-- Start Nav  -->
 	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente"> 
 		<div class="container">
 			
@@ -33,12 +37,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+        <!-- End Btn-Toggle -->
 
       <!-- Start Logo  -->
       <a href="index.html" class="navbar-brand">
         <span class="img-logo">Spotify</span>
       </a>
-
+        <!-- End Logo  -->
 			</div>
       
       <!-- Start NavBar-->
@@ -51,20 +56,20 @@
           <li><a href="">Inscreva-se</a></li>
           <li><a href="">Entrar</a></li>
         </ul>
-      </div>
-
+      </div> <!-- End NavBar  -->
 		</div> 
 	</nav> <!-- End Nav  -->
     
-  <div class="capa">
+    
+  <div class="capa"> <!-- Start Capa  -->
     <div class="texto-capa">
       <h1>Músicas para todos</h1>
       <a href="" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotify Free</a>
       <a href="" class="btn btn-custom btn-branco btn-lg">Obter Spotify Premium</a>
     </div>
-  </div>
+  </div> <!-- End Capa  -->
 
-  <!-- Start Conteúdos  -->
+  <!-- Start Conteúdos = Serviços e Recursos  -->
 
   <section id="servicos">
     <div class="container">
@@ -117,12 +122,10 @@
 
         </div>
 
-      </div>
+      </div>   <!-- End Albuns  -->
     </div>
-  </section>
-   <!-- End Conteúdos  -->
-
-  <!--   -->
+  </section>   <!-- End Serviços -->
+   
   <section id="recursos">
     <div class="container">
       <div class="row">
@@ -144,26 +147,76 @@
          </div>
 
          <!--  imagens - recursos -->
-         <div class="col-md-8">
-         conteudo 2
+         <div class="col-md-8 rotacionar">
+
+          <div class="row">
+
+            <div class="col-md-6">
+              <img src="./imagens/iphone1.png" class="img-responsive">
+            </div>
+
+            <div class="col-md-6">
+              <img src="./imagens/iphone2.png" class="img-responsive">
+            </div>
 
          </div>
 
       </div>
+    </div>   <!-- End Recursos  -->
+  </section>   <!-- End Conteúdos = Serviços e Recursos  -->
+
+  <!--  Footer -->
+  <footer id="rodape">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <Span class="img-logo">Spotify</Span>
+        </div>
+        
+        <div class="col-md-2">
+          <h4>Company</h3>
+            <ul class="nav">
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Empregos</a></li>
+              <li><a href="#">Impresa</a></li>
+              <li><a href="#">Novidades</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4>Comunidades</h3>
+            <ul class="nav">
+              <li><a href="#">Artistas</a></li>
+              <li><a href="#">Desenvolvedores</a></li>
+              <li><a href="#">Marcas</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-2">
+          <h4>Links Uteis</h3>
+            <ul class="nav">
+              <li><a href="#">Ajuda</a></li>
+              <li><a href="#">Presentes</a></li>
+              <li><a href="#">Player da Web</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-4">
+          <ul class="nav">
+            <li class="item-rede-social"><a href="#"><img src="./imagens/facebook.png"></a></li>
+            <li class="item-rede-social"><a href="#"><img src="./imagens/twitter.png"></a></li>
+            <li class="item-rede-social"><a href="#"><img src="./imagens/instagram.png"></a></li>
+          </ul>
+        </div>
+      </div> <!-- End Row-->
     </div>
-  </section>
-
-  <!--   -->
-
-  <!--   -->
-  <!--   -->
-
-
-
-
+  </footer>
+  <!-- End Footer  -->
+  
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <!-- Bootstrap-->
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
